@@ -14,7 +14,10 @@
 #include <time.h>
 #include <unistd.h>
 #include <sqlite3.h>
-#include <esp_spi_flash.h>
+
+#include <spi_flash_mmap.h>
+#include "esp_random.h"
+
 #include <esp_system.h>
 #include <rom/ets_sys.h>
 #include <sys/stat.h>
